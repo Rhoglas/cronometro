@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="./cronometro.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <form name="form_main" class="container">
+
+        <h1 class="title">Cronômetro</h1>
+
+        <div class="crono">
+            <span class="loader" id="hour">00</span>:<span class="loader" id="minute">00</span>:<span class="loader" id="second">00</span>:<span class="loader" id="millisecond">000</span>
+        </div>
+
+        <button onclick="iniciar()" class="botao " type="button" name="start">
+            <span class="material-icons md-36">play_arrow</span> </button>
+        <button onclick="parar()" class="botao" type="button" name="pause">
+            <span class="material-icons md-36">stop</span></button>
+        <button onclick="zerar()" class="botao" type="button" name="reset">
+            <span class="material-icons md-36" heigth=110px >refresh</span></button>
+        <button onclick="salvar()" class="botao" type="button" name="time">
+            <span class="material-icons md-36">playlist_add_check</span></button>
+        <button onclick="apagar()" class="botao" type="button" name="limpar">
+            <span class="material-icons md-36">delete_outline</span></button>
+
+        <ul id="tempos" class="list">
+
+        </ul>
+
+
+    </form>
+</body>
+<script src="./cronometro.js"></script>
+
+</html>

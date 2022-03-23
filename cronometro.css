@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@font-face {
+    font-family: minhaFont;
+    src: url(./fonts/digital-7mono.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: #111;
+    border-radius: 20px;
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    width: 40rem;
+}
+
+.container>.title {
+    padding: 10px;
+    padding-bottom: 0;
+    font-size: 70px;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.container>.crono {
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    font-family: minhaFont;
+    font-size: 7rem;
+}
+
+#millisecond {
+    font-size: 60px;
+    color: #111;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.container>.botao {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0;
+    border-radius: 30px;
+}
+
+.container>.list {
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: minhaFont;
+    margin-top: 20px;
+    font-size: 35px;
+    list-style-type: none;
+}
